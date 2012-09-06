@@ -1,0 +1,24 @@
+*.log
+*.pot
+*.py[co]
+
+### Django
+goldmine/static/*
+!goldmine/static/.empty
+local_settings.py
+goldmine/settings/local.py
+
+### OS Junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+### Editor temp files
+*.*.sw?
+*.*~
+*.orig
